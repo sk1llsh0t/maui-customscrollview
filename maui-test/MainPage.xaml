@@ -4,169 +4,170 @@
              x:Class="maui_test.MainPage"
              xmlns:ctrl="clr-namespace:maui_test">
 
-    <ctrl:CustomScrollView DisableFling="True">
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <Grid RowDefinitions="*">
+        <ctrl:CustomScrollView Grid.Row="0" DisableFling="False">
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center">
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                <Image
+                    Source="dotnet_bot.png"
+                    SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                    HeightRequest="200"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Hello, World!"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="32"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Welcome to .NET Multi-platform App UI"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                    FontSize="18"
+                    HorizontalOptions="Center" />
 
-            <Button
-                x:Name="CounterBtn1"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                <Button
+                    x:Name="CounterBtn1"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center" />
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                <Image
+                    Source="dotnet_bot.png"
+                    SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                    HeightRequest="200"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Hello, World!"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="32"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Welcome to .NET Multi-platform App UI"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                    FontSize="18"
+                    HorizontalOptions="Center" />
 
-            <Button
-                x:Name="CounterBtn2"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                <Button
+                    x:Name="CounterBtn2"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center" />
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                <Image
+                    Source="dotnet_bot.png"
+                    SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                    HeightRequest="200"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Hello, World!"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="32"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Welcome to .NET Multi-platform App UI"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                    FontSize="18"
+                    HorizontalOptions="Center" />
 
-            <Button
-                x:Name="CounterBtn3"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                <Button
+                    x:Name="CounterBtn3"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center" />
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                <Image
+                    Source="dotnet_bot.png"
+                    SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                    HeightRequest="200"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Hello, World!"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="32"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Welcome to .NET Multi-platform App UI"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                    FontSize="18"
+                    HorizontalOptions="Center" />
 
-            <Button
-                x:Name="CounterBtn4"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                <Button
+                    x:Name="CounterBtn4"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center" />
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                <Image
+                    Source="dotnet_bot.png"
+                    SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                    HeightRequest="200"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Hello, World!"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="32"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Welcome to .NET Multi-platform App UI"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                    FontSize="18"
+                    HorizontalOptions="Center" />
 
-            <Button
-                x:Name="CounterBtn5"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                <Button
+                    x:Name="CounterBtn5"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center" />
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                <Image
+                    Source="dotnet_bot.png"
+                    SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                    HeightRequest="200"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Hello, World!"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="32"
+                    HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                <Label
+                    Text="Welcome to .NET Multi-platform App UI"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                    FontSize="18"
+                    HorizontalOptions="Center" />
 
-            <Button
-                x:Name="CounterBtn6"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                <Button
+                    x:Name="CounterBtn6"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center" />
 
-        </VerticalStackLayout>
-    </ctrl:CustomScrollView>
-
+            </VerticalStackLayout>
+        </ctrl:CustomScrollView>
+    </Grid>
 </ContentPage>
