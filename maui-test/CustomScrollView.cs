@@ -16,8 +16,7 @@
             get { return (bool)this.GetValue(ScrollToEndCompletedProperty); }
             set { this.SetValue(ScrollToEndCompletedProperty, value); }
         }
-
-        //add ability to turn fling on or off in the custom renderer
+        
         public static readonly BindableProperty DisableFlingProperty =
              BindableProperty.Create("DisableFling", typeof(bool), typeof(CustomScrollView), false, defaultBindingMode: BindingMode.TwoWay);
         public bool DisableFling
